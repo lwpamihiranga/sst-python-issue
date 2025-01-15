@@ -4,5 +4,6 @@ version = "0.1.0"
 description = "AWS Lambda Function"
 requires-python = ">=3.12,<3.13"
 dependencies = [ 
-    "sst @ https://github.com/sst/sst/archive/refs/tags/v3.4.22.zip#subdirectory=sdk/python" 
+    "sst @ https://github.com/sst/sst/archive/refs/tags/v3.4.22.zip#subdirectory=sdk/python",
+    "psycopg2-binary"
 ]
