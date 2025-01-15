@@ -5,7 +5,11 @@ description = "AWS Lambda Function"
 requires-python = ">=3.12,<3.13"
 
 dependencies = [
+    "sst"
 ]
+
+[tool.uv.sources]
+sst = { git = "https://github.com/sst/sst", subdirectory = "sdk/python", branch = "production" }
 
 [tool.setuptools]
 py-modules = []
