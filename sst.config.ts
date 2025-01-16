@@ -16,7 +16,6 @@ export default $config({
     });
     const db = new sst.aws.Postgres('BackendRds', {
       vpc,
-      // @ts-ignore types are wrong
       dev: {
         // create a local postgres DB and set these values. TODO: get from env.development - does not seem to work
         username: '',
